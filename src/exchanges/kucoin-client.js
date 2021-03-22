@@ -809,6 +809,8 @@ function candlePeriod(period) {
       return "1min";
     case CandlePeriod._3m:
       return "3min";
+    case CandlePeriod._5m:
+      return "5min";
     case CandlePeriod._15m:
       return "15min";
     case CandlePeriod._30m:
